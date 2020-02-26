@@ -1,0 +1,67 @@
+.couleur{
+
+
+ font-size: 1.75rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-weight: bold;
+  color: green;
+}
+.content {
+	height: 800px;
+	background-color:rgb(220,220,220);
+}
+.shop{
+	margin-left:80px;
+	margin-right: 80px; 
+	background-color: white;
+	height: 100px;
+	
+	border: 40px solid rgb(220,220,220);
+
+}
+.price{
+	display:flex;
+text-align: center;
+height: 60px;
+background-color: black;
+color:white;
+justify-content: space-between;
+align-items: center;
+
+}
+.achat{
+	display:flex;
+	justify-content: space-around;
+	height:200px;
+border-bottom: 1px solid black;
+background-color: #FFB6C1;
+align-items: center;
+}
+.achat img{
+	width:200px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.achat button {
+	
+	text-align: center;
+	border-radius: 40px;
+	background-color: green;
+padding: 5px;
+
+}
+.btn-plus{
+	margin-right: -91px;
+}
+.btn-moin{
+	margin-left: -91px;
+}
+.fa-trash-alt{
+	cursor: pointer;
+}
+.fa-heart{
+	cursor: pointer;
+}
+
